@@ -1,5 +1,5 @@
 ## 1. Your First Script
-- [Your First Script](https://developers.google.com/apps-script/overview#your_first_script
+- [Your First Script](https://developers.google.com/apps-script/overview#your_first_script)
 
 ## 2.1. JavaScript 分かる人
 - [Basic and working with Google Sheets](https://developers.google.com/apps-script/articles/tutorials)
