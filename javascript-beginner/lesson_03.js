@@ -36,19 +36,19 @@ function func03c() {
 
 function func03d() {
 
-  Logger.log(a);// 20 が表示されれば OK
+  var name = '織田　信長';
 
-  a = 10;
+  // replace メソッドを使って全角スペースを半角スペースに置き換え
 
-  Logger.log(a);// 10 が表示されれば OK
+  Logger.log(name);// '織田 信長' と出力されれば OK
 }
 
 function func03e() {
 
-  Logger.log(a);// abc が表示されれば OK
+  // 定数 text を定義
 
-  a = 'def';
-  
-  Logger.log(a);// abc が表示されれば OK
+  const index = text.indexOf('b');
+
+  Logger.log(index);// 2 と出力されれば OK
 }
 

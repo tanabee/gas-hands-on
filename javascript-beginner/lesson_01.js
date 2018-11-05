@@ -32,18 +32,18 @@ function func01b() {
 
 function func01c() {
 
-  Logger.log(a);// 20 が表示されれば OK
+  Logger.log(a);// 20 と出力されれば OK
 
   a = 10;
 
-  Logger.log(a);// 10 が表示されれば OK
+  Logger.log(a);// 10 と出力されれば OK
 }
 
 function func01d() {
 
-  Logger.log(a);// abc が表示されれば OK
+  Logger.log(a);// abc と出力されれば OK
 
   a = 'def';
   
-  Logger.log(a);// abc が表示されれば OK
+  Logger.log(a);// abc と出力されれば OK
 }

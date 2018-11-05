@@ -42,7 +42,7 @@ function func02c() {
 
   // 定数 sum に a, b, c の合計を計算して代入
 
-  Logger.log(sum);// 20 が表示されれば OK
+  Logger.log(sum);// 70 と出力されれば OK
 }
 
 function func02d() {
@@ -53,7 +53,7 @@ function func02d() {
 
   // 定数 avg に a, b, c の平均を計算して代入
 
-  Logger.log(avg);// 20 が表示されれば OK
+  Logger.log(avg);// 20 と出力されれば OK
 }
 
 function func02e() {
