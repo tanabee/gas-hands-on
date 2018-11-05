@@ -87,3 +87,19 @@ function func05i() {
 
   Logger.log(total);// 46 と出力されれば OK
 }
+
+function func05j() {
+  // Link: https://docs.google.com/spreadsheets/d/1gWI98XMLhtI3BRtgk5sMCAgC-mWLb-KA-degLehgjSw/edit#gid=209724583
+
+  var rows = SpreadsheetApp
+    .openById('1gWI98XMLhtI3BRtgk5sMCAgC-mWLb-KA-degLehgjSw')
+    .getSheetByName('シート1')
+    .getDataRange()
+    .getValues();
+
+  Logger.log(rows.length);
+  Logger.log(rows[0]);
+  Logger.log(rows[rows.length - 1]);
+
+  // TODO: 東京都だけのデータを新しい配列に抽出する
+}

@@ -52,3 +52,9 @@ function func03e() {
   Logger.log(index);// 2 と出力されれば OK
 }
 
+// Document: https://developers.google.com/apps-script/reference/gmail/gmail-app#sendEmail(String,String,String,Object) 
+function func03f() {
+  var email = Session.getActiveUser().getEmail();
+  // TODO: subject と body に文字列を代入する
+  GmailApp.sendEmail(email, subject, body);
+}
