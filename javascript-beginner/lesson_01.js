@@ -28,7 +28,7 @@ function func01b() {
   Logger.log(b);
 }
 
-/** Lesson **/
+/** Training **/
 
 function func01c() {
 
