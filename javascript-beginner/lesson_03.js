@@ -1,11 +1,11 @@
-/** データ型: String **/
+/** データ型: string **/
 
 /** Learn **/
 
 // Document: https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String
 
 function func03a() {
-  // String: 文字列
+  // string: 文字列
   // 例: "JavaScript", 'Google Apps Script'
   const a = "JavaScript";
   Logger.log(typeof a);

@@ -2,6 +2,8 @@
 
 /** Learn **/
 
+// Document: https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Boolean
+
 function func04a() {
   // Boolean: 真偽値
   // 例: true, false
@@ -55,7 +57,7 @@ function func04d() {
 
 function func04e() {
 
-  if (a < 3) {
+  if (a > 3) {
     Logger.log('a is larger than three.');// このメッセージが出力されれば OK
   }
 }

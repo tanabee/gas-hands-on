@@ -6,7 +6,7 @@
 - [clasp](https://github.com/google/clasp)
 
 ## 2.2. JavaScript 初めての人
-- ./learn-javascrtipt.js
+- https://script.google.com/d/1c0_ps2ZOOKwVXYU6gEEyjPfu4bOQhr3kQV39MeCli_Ld6C3eb7IL3LPe/edit?usp=sharing
 
 ## 3. テンプレート触る
 - [Gmail to SpreadSheet](https://qiita.com/tanabee/items/17eb721801eff8d97db9)

@@ -17,7 +17,7 @@ function func06a() {
 
   Logger.log(user);
   Logger.log(user.name);
-  Logger.log(user.tags);
+  Logger.log(user['tags']);
   Logger.log(user.tags[1]);
 
   user.tags.forEach(function (tag) {
@@ -34,7 +34,7 @@ function func06b() {
   score.english = 70;
 
   Logger.log(score);
-  Logger.log(score.values());
+  Logger.log(Object.keys(score));
 }
 
 /** Training **/

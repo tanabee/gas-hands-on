@@ -2,6 +2,8 @@
 
 /** Learn **/
 
+// Document: https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array
+
 function func05a() {
   const a = [1, 2, 3];
   Logger.log(a);
@@ -18,14 +20,14 @@ function func05b() {
   a.pop();
   Logger.log(a);
   Logger.log(a.length);
-  Logger.log(a.indexOf('3'));
-  Logger.log(a.indexOf('4'));
+  Logger.log(a.indexOf(3));
+  Logger.log(a.indexOf(4));
 }
 
 function func05c() {
   const arr = ['東京', '大阪', '愛知', '福岡'];
-  Logger.log(a.indexOf('東京'));
-  Logger.log(a.indexOf('名古屋'));
+  Logger.log(arr.indexOf('東京'));
+  Logger.log(arr.indexOf('名古屋'));
 }
 
 function func05d() {
@@ -46,7 +48,7 @@ function func05e() {
 }
 
 function func05f() {
-  const arr = [1, 2, 3, 4, 5, 6, 7];
+  const a = [1, 2, 3, 4, 5, 6, 7];
 
   const b = a.filter(function (value) {
     return value % 2 !== 0;

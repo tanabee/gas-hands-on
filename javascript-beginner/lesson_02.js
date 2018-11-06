@@ -1,11 +1,11 @@
-/** データ型: Number **/
+/** データ型: number **/
 
 /** Learn **/
 
 // Document: https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Number
 
 function func02a() {
-  // Number: 数値
+  // number: 数値
   // 例: 1, 2, 3
   const a = 5;
   const b = 2;
@@ -42,7 +42,7 @@ function func02c() {
 
   // 定数 sum に a, b, c の合計を計算して代入
 
-  Logger.log(sum);// 70 と出力されれば OK
+  Logger.log(sum);// 60 と出力されれば OK
 }
 
 function func02d() {
