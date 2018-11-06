@@ -31,7 +31,7 @@ function func05c() {
 function func05d() {
   const arr = ['iOS', 'Android', 'Web'];
   // for 文
-  for (const i = 0; i < arr.length; i++) {
+  for (var i = 0; i < arr.length; i++) {
     Logger.log(i);
     Logger.log(arr[i]);
   }

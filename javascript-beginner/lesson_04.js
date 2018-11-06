@@ -60,7 +60,7 @@ function func04e() {
   }
 }
 
-function func01d() {
+function func04f() {
 
   if (a < 0) {
     Logger.log('a is smaller than zero');
