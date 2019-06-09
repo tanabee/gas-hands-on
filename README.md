@@ -8,10 +8,8 @@
 ## 2.2. JavaScript 初めての人
 - https://script.google.com/d/1c0_ps2ZOOKwVXYU6gEEyjPfu4bOQhr3kQV39MeCli_Ld6C3eb7IL3LPe/edit?usp=sharing
 
-## 3. テンプレート触る
-- [Gmail to SpreadSheet](https://qiita.com/tanabee/items/17eb721801eff8d97db9)
-- [Form to Slack](https://github.com/tanabee/form-to-slack)
-- [翻訳 API](https://github.com/tanabee/spreadsheet-to-json)
+## 3. ハンズオン
+- [Google Apps Script ハンズオン資料](https://qiita.com/tanabee/items/4a5056f468ae71d8d648)
 
 ## おまけ
 - [Spreadsheet to Calendar](https://qiita.com/tanabee/items/7ebcc63e5b561d18a582)
